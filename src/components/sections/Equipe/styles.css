@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+}
+
+.profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span {
+    color: #ffffff;
+    font-size: medium;
+    padding: 0vh -10vh;
+}
