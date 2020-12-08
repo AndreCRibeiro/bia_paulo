@@ -1,10 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import Button from "../elements/Button";
-import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
-import Unb from "./partials/Unb";
 
 const propTypes = {
     navPosition: PropTypes.string,

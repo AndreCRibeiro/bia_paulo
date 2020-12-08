@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
-import ButtonGroup from "../elements/ButtonGroup";
-import Button from "../elements/Button";
 import Image from "../elements/Image";
-import Modal from "../elements/Modal";
-import Modal2 from "../elements/Modal2";
-import Modal3 from "../elements/Modal3";
-import Modal4 from "../elements/Modal4";
 
 const propTypes = {
     ...SectionProps.types,
@@ -30,6 +24,8 @@ const Hero = ({
     const [videoModalActive, setVideomodalactive] = useState(false);
     const [EquipeModalActive, setEquipemodalactive] = useState(false);
 
+
+
     const openModal = (e) => {
         e.preventDefault();
         setVideomodalactive(true);
@@ -49,6 +45,8 @@ const Hero = ({
         e.preventDefault();
         setEquipemodalactive(false);
     };
+
+    console.log({ videoModalActive, EquipeModalActive, closeModal, openEquipeModal, closeEquipeModal })
 
     const outerClasses = classNames(
         "hero section center-content",
